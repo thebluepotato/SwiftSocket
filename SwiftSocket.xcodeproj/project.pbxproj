@@ -33,6 +33,9 @@
 		375C48351DDC4C56008C701D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375C48331DDC4C56008C701D /* Main.storyboard */; };
 		375C48371DDC4C56008C701D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375C48361DDC4C56008C701D /* Assets.xcassets */; };
 		375C483A1DDC4C56008C701D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375C48381DDC4C56008C701D /* LaunchScreen.storyboard */; };
+		89FCD39924ACCFDE00308BD8 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCD39824ACCFDE00308BD8 /* Package.swift */; };
+		89FCD39A24ACCFDE00308BD8 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCD39824ACCFDE00308BD8 /* Package.swift */; };
+		89FCD39B24ACCFDE00308BD8 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCD39824ACCFDE00308BD8 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,7 @@
 		375C483B1DDC4C56008C701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377DAA691DCDE40200009697 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		377DAA761DCDE45D00009697 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FCD39824ACCFDE00308BD8 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				372313981DCF84EC0042DA87 /* Result.swift */,
+				89FCD39824ACCFDE00308BD8 /* Package.swift */,
 				372313991DCF84EC0042DA87 /* Socket.swift */,
 				375BC51D1DCDE86B006AD8F6 /* TCPSocket */,
 				375BC51E1DCDE878006AD8F6 /* UDPSocket */,
@@ -360,6 +365,7 @@
 				37454EE31E06163D00800AE5 /* UDPClient.swift in Sources */,
 				37454EE01E06163D00800AE5 /* Socket.swift in Sources */,
 				37454EE41E06163D00800AE5 /* yudpsocket.c in Sources */,
+				89FCD39B24ACCFDE00308BD8 /* Package.swift in Sources */,
 				37454EDF1E06163D00800AE5 /* Result.swift in Sources */,
 				37454EE21E06163D00800AE5 /* ytcpsocket.c in Sources */,
 				37454EE11E06163D00800AE5 /* TCPClient.swift in Sources */,
@@ -382,6 +388,7 @@
 				372313931DCF84D80042DA87 /* yudpsocket.c in Sources */,
 				3723139A1DCF84EC0042DA87 /* Result.swift in Sources */,
 				3723139B1DCF84EC0042DA87 /* Socket.swift in Sources */,
+				89FCD39924ACCFDE00308BD8 /* Package.swift in Sources */,
 				372313921DCF84D80042DA87 /* UDPClient.swift in Sources */,
 				372313971DCF84E30042DA87 /* ytcpsocket.c in Sources */,
 				372313961DCF84E30042DA87 /* TCPClient.swift in Sources */,
@@ -395,6 +402,7 @@
 				37454EDC1E06163C00800AE5 /* UDPClient.swift in Sources */,
 				37454ED91E06163C00800AE5 /* Socket.swift in Sources */,
 				37454EDD1E06163C00800AE5 /* yudpsocket.c in Sources */,
+				89FCD39A24ACCFDE00308BD8 /* Package.swift in Sources */,
 				37454ED81E06163C00800AE5 /* Result.swift in Sources */,
 				37454EDB1E06163C00800AE5 /* ytcpsocket.c in Sources */,
 				37454EDA1E06163C00800AE5 /* TCPClient.swift in Sources */,
