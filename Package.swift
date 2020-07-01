@@ -21,7 +21,7 @@ let package = Package(
         .target(name: "SwiftSocketC"),
         .target(
             name: "SwiftSocket",
-            dependencies: [],
+            dependencies: ["SwiftSocketC"],
             //path: "Sources",
             exclude: ["*.plist"])
     ]
